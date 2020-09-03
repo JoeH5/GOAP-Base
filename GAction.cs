@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public abstract class GAction : MonoBehaviour
 {
     public string actionName = "Action";
-    public float cost = 1.0f;
+    public float cost = 6.0f;
 
     public GameObject target;
     public string targetTag;
